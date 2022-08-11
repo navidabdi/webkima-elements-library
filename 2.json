@@ -1,0 +1,187 @@
+{
+  "content": [
+    {
+      "id": "275a7da8",
+      "settings": {
+        "content_position": "middle",
+        "structure": "30",
+        "background_background": "classic",
+        "background_color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "4c0b1e82",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 10,
+            "_inline_size_mobile": 50
+          },
+          "elements": [
+            {
+              "id": "1b89872a",
+              "settings": {
+                "title": "\u0648\u0628\u06a9\u06cc\u0645\u0627",
+                "header_size": "h4",
+                "typography_typography": "custom",
+                "typography_font_family": "IranYekan",
+                "typography_font_weight": "700",
+                "link": {
+                  "url": "https://el.nabiabdi.ir/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "large",
+                "typography_font_size_tablet": {
+                  "unit": "rem",
+                  "size": 1.6,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        },
+        {
+          "id": "433540bd",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 69.664,
+            "_inline_size_mobile": 50
+          },
+          "elements": [
+            {
+              "id": "69eab93f",
+              "settings": {
+                "pointer": "none",
+                "dropdown": "mobile",
+                "full_width": "stretch",
+                "toggle_align": "left",
+                "menu_typography_typography": "custom",
+                "menu_typography_font_family": "IranYekan",
+                "menu_typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.9,
+                  "sizes": []
+                },
+                "menu_typography_font_size_tablet": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "menu_typography_font_size_mobile": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "menu_typography_font_weight": "400",
+                "color_menu_item_hover": "#FF4B23",
+                "padding_horizontal_menu_item": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "dropdown_box_shadow_box_shadow_type": "yes",
+                "dropdown_box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 10,
+                  "spread": 0,
+                  "color": "rgba(0, 0, 0, 0.08)"
+                },
+                "toggle_color": "#212345",
+                "toggle_background_color": "#FEE8D300",
+                "toggle_size_mobile": { "unit": "px", "size": 27, "sizes": [] },
+                "__globals__": {
+                  "color_menu_item_hover": "globals/colors?id=primary",
+                  "toggle_color": "globals/colors?id=accent",
+                  "toggle_background_color": "",
+                  "background_color_dropdown_item_hover": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "nav-menu",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        },
+        {
+          "id": "2eb077c4",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 20,
+            "hide_mobile": "hidden-mobile"
+          },
+          "elements": [
+            {
+              "id": "1ac82490",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-instagram",
+                      "library": "fa-brands"
+                    },
+                    "_id": "7b0a8d8"
+                  },
+                  {
+                    "social_icon": {
+                      "value": "fab fa-telegram",
+                      "library": "fa-brands"
+                    },
+                    "_id": "50ba662"
+                  },
+                  {
+                    "social_icon": {
+                      "value": "fab fa-linkedin",
+                      "library": "fa-brands"
+                    },
+                    "_id": "7bfe66a"
+                  }
+                ],
+                "shape": "circle",
+                "align": "left",
+                "icon_color": "custom",
+                "icon_primary_color": "#FF4B2300",
+                "icon_secondary_color": "#53587982",
+                "icon_padding": { "unit": "em", "size": 0, "sizes": [] },
+                "icon_spacing": { "unit": "px", "size": 10, "sizes": [] },
+                "hover_animation": "grow",
+                "__globals__": {
+                  "icon_primary_color": "",
+                  "icon_secondary_color": "",
+                  "hover_secondary_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "social-icons",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    }
+  ],
+  "page_settings": { "content_wrapper_html_tag": "header" },
+  "version": "0.4",
+  "title": "Digital Marketing Header",
+  "type": "header"
+}
