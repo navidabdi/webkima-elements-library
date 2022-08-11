@@ -1,0 +1,22 @@
+{
+  "code": "success",
+  "message": "",
+  "data": [
+    {
+      "author": "WebkimaAcademy",
+      "date": 2522222301,
+      "favorite": 0,
+      "isPro": 0,
+      "hasPageSettings": 0,
+      "popularityIndex": 1,
+      "type": "block",
+      "subtype": "page",
+      "tags": [],
+      "template_id": 1,
+      "thumbnail": "https://elementor.nabiabdi.ir/wp-content/uploads/2022/07/header10.jpg",
+      "title": "Digikala Landing Nowruz ",
+      "trendIndex": 1,
+      "url": "https://elementor.nabiabdi.ir/hero-1/"
+    }
+  ]
+}
