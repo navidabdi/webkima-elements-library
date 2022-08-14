@@ -1,47 +1,78 @@
 {
   "content": [
     {
-      "id": "275a7da8",
+      "id": "7edc14ba",
       "settings": {
-        "content_position": "middle",
-        "structure": "30",
+        "structure": "40",
         "background_background": "classic",
-        "background_color": "#FFFFFF"
+        "border_radius": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        },
+        "__globals__": { "background_color": "globals/colors?id=accent" }
       },
       "elements": [
         {
-          "id": "4c0b1e82",
+          "id": "62c11ef5",
           "settings": {
-            "_column_size": 33,
-            "_inline_size": 10,
-            "_inline_size_mobile": 50
+            "_column_size": 25,
+            "_inline_size": 30,
+            "_inline_size_tablet": 50
           },
           "elements": [
             {
-              "id": "1b89872a",
+              "id": "64f91c07",
               "settings": {
                 "title": "\u0648\u0628\u06a9\u06cc\u0645\u0627",
-                "header_size": "h4",
+                "size": "large",
+                "header_size": "p"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "3adfb6a0",
+              "settings": {
+                "title": "\u0645\u0627 \u06cc\u06a9 \u0622\u0698\u0627\u0646\u0633 \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644 \u0645\u0627\u0631\u06a9\u062a\u06cc\u0646\u06af \u062a\u0645\u0627\u0645 \u062e\u062f\u0645\u062a \u0647\u0633\u062a\u06cc\u0645 \u06a9\u0647 \u06a9\u0644\u06cc\u0647 \u062e\u062f\u0645\u0627\u062a\u06cc \u06a9\u0647 \u06a9\u0633\u0628 \u0648 \u06a9\u0627\u0631\u0634\u0645\u0627\u060c \u0628\u0631\u0627\u06cc \u0631\u0634\u062f \u062f\u0631 \u0641\u0636\u0627\u06cc \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644 \u0628\u0647 \u0622\u0646\u0647\u0627 \u0646\u06cc\u0627\u0632 \u062f\u0627\u0631\u062f \u0631\u0627 \u0628\u0631\u0646\u0627\u0645\u0647 \u0631\u06cc\u0632\u06cc \u0648 \u0627\u062c\u0631\u0627 \u0645\u06cc\u06a9\u0646\u06cc\u0645.",
+                "header_size": "p",
                 "typography_typography": "custom",
                 "typography_font_family": "IranYekan",
-                "typography_font_weight": "700",
-                "link": {
-                  "url": "https://el.nabiabdi.ir/",
-                  "is_external": "",
-                  "nofollow": "",
-                  "custom_attributes": ""
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.85,
+                  "sizes": []
                 },
-                "size": "large",
                 "typography_font_size_tablet": {
                   "unit": "rem",
-                  "size": 1.6,
+                  "size": "",
                   "sizes": []
                 },
                 "typography_font_size_mobile": {
                   "unit": "rem",
                   "size": "",
                   "sizes": []
-                }
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.5,
+                  "sizes": []
+                },
+                "__globals__": { "title_color": "globals/colors?id=d5d50bf" }
               },
               "elements": [],
               "isInner": false,
@@ -53,65 +84,59 @@
           "elType": "column"
         },
         {
-          "id": "433540bd",
+          "id": "729f5f79",
           "settings": {
-            "_column_size": 33,
-            "_inline_size": 69.664,
+            "_column_size": 25,
+            "_inline_size": 22.17,
+            "_inline_size_tablet": 50,
             "_inline_size_mobile": 50
           },
           "elements": [
             {
-              "id": "69eab93f",
+              "id": "7b9f6a0e",
               "settings": {
-                "pointer": "none",
-                "dropdown": "mobile",
-                "full_width": "stretch",
-                "toggle_align": "left",
-                "menu_typography_typography": "custom",
-                "menu_typography_font_family": "IranYekan",
-                "menu_typography_font_size": {
-                  "unit": "rem",
-                  "size": 0.9,
-                  "sizes": []
-                },
-                "menu_typography_font_size_tablet": {
-                  "unit": "em",
-                  "size": "",
-                  "sizes": []
-                },
-                "menu_typography_font_size_mobile": {
-                  "unit": "em",
-                  "size": "",
-                  "sizes": []
-                },
-                "menu_typography_font_weight": "400",
-                "color_menu_item_hover": "#FF4B23",
-                "padding_horizontal_menu_item": {
-                  "unit": "px",
-                  "size": 15,
-                  "sizes": []
-                },
-                "dropdown_box_shadow_box_shadow_type": "yes",
-                "dropdown_box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 10,
-                  "spread": 0,
-                  "color": "rgba(0, 0, 0, 0.08)"
-                },
-                "toggle_color": "#212345",
-                "toggle_background_color": "#FEE8D300",
-                "toggle_size_mobile": { "unit": "px", "size": 27, "sizes": [] },
-                "__globals__": {
-                  "color_menu_item_hover": "globals/colors?id=primary",
-                  "toggle_color": "globals/colors?id=accent",
-                  "toggle_background_color": "",
-                  "background_color_dropdown_item_hover": "globals/colors?id=primary"
-                }
+                "title": "\u062e\u062f\u0645\u0627\u062a \u0627\u0635\u0644\u06cc \u0645\u0627",
+                "size": "small",
+                "header_size": "h3",
+                "__globals__": { "title_color": "globals/colors?id=17f80bb" }
               },
               "elements": [],
               "isInner": false,
-              "widgetType": "nav-menu",
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "32a59aef",
+              "settings": {
+                "editor": "<p>\u0637\u0631\u0627\u062d\u06cc UI</p><p>\u0645\u062f\u06cc\u0631\u06cc\u062a \u0634\u0628\u06a9\u0647 \u0627\u062c\u062a\u0645\u0627\u0639\u06cc</p><p>\u0633\u0626\u0648 \u0633\u0627\u06cc\u062a</p><p>\u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u06cc\u062a</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "IranYekan",
+                "typography_font_size": {
+                  "unit": "em",
+                  "size": 0.9,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "__globals__": { "text_color": "globals/colors?id=d5d50bf" }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
               "elType": "widget"
             }
           ],
@@ -119,52 +144,251 @@
           "elType": "column"
         },
         {
-          "id": "2eb077c4",
+          "id": "7a6fbf37",
           "settings": {
-            "_column_size": 33,
-            "_inline_size": 20,
-            "hide_mobile": "hidden-mobile"
+            "_column_size": 25,
+            "_inline_size": 24.475,
+            "_inline_size_tablet": 50,
+            "_inline_size_mobile": 50
           },
           "elements": [
             {
-              "id": "1ac82490",
+              "id": "20849fb7",
+              "settings": {
+                "title": "\u062e\u062f\u0645\u0627\u062a \u062f\u06cc\u06af\u0631",
+                "size": "small",
+                "header_size": "h3",
+                "__globals__": { "title_color": "globals/colors?id=17f80bb" }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "477b88b3",
+              "settings": {
+                "editor": "<p>\u062a\u0648\u0644\u06cc\u062f \u0645\u062d\u062a\u0648\u0627</p><p>\u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u06cc\u062a \u062f\u0631 \u062a\u0647\u0631\u0627\u0646</p><p>\u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u06cc\u062a \u0634\u0631\u06a9\u062a\u06cc</p><p>\u0633\u0626\u0648\u06cc \u0645\u062d\u062a\u0648\u0627</p><p>\u0637\u0631\u0627\u062d\u06cc \u0645\u0648\u0634\u0646 \u06af\u0631\u0627\u0641\u06cc\u06a9</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "IranYekan",
+                "typography_font_size": {
+                  "unit": "em",
+                  "size": 0.9,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "__globals__": { "text_color": "globals/colors?id=d5d50bf" }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        },
+        {
+          "id": "13759015",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 23.317,
+            "_inline_size_tablet": 50
+          },
+          "elements": [
+            {
+              "id": "2c1ca86",
+              "settings": {
+                "title": "\u0631\u0627\u0647 \u0647\u0627\u06cc \u062a\u0645\u0627\u0633",
+                "size": "small",
+                "header_size": "h3",
+                "__globals__": { "title_color": "globals/colors?id=17f80bb" }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "7733b6c1",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": " \u062a\u0647\u0631\u0627\u0646 \u0634\u0631\u06cc\u0639\u062a\u06cc \u062e\u06cc\u0627\u0628\u0627\u0646 \u0645\u0639\u0644\u0645",
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "_id": "2d6d5a2"
+                  },
+                  {
+                    "text": "09121111111-02122222222\u200b",
+                    "selected_icon": {
+                      "value": "fas fa-phone-volume",
+                      "library": "fa-solid"
+                    },
+                    "_id": "caebe24"
+                  }
+                ],
+                "space_between": { "unit": "px", "size": 20, "sizes": [] },
+                "icon_size": { "unit": "px", "size": 22, "sizes": [] },
+                "text_indent": { "unit": "px", "size": 0, "sizes": [] },
+                "icon_typography_typography": "custom",
+                "icon_typography_font_family": "IranYekan",
+                "icon_typography_font_weight": "400",
+                "__globals__": { "text_color": "globals/colors?id=d5d50bf" }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "icon-list",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    },
+    {
+      "id": "57f5c061",
+      "settings": {
+        "content_position": "middle",
+        "structure": "20",
+        "background_background": "classic",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "15",
+          "right": "0",
+          "bottom": "15",
+          "left": "0",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=accent",
+          "border_color": "globals/colors?id=text"
+        }
+      },
+      "elements": [
+        {
+          "id": "246a10f4",
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            {
+              "id": "7e406c61",
+              "settings": {
+                "editor": "<p>\u0637\u0631\u0627\u062d\u06cc \u0634\u062f\u0647 \u0628\u0627 \u0639\u0634\u0642 \u062a\u0648\u0633\u0637 \u062a\u06cc\u0645 \u0622\u0698\u0627\u0646\u0633 \u0648\u0628\u06a9\u06cc\u0645\u0627</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "IranYekan",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.8,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "__globals__": { "text_color": "globals/colors?id=d5d50bf" },
+                "align_mobile": "center"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        },
+        {
+          "id": "1d0d72b0",
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            {
+              "id": "349c61b4",
               "settings": {
                 "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-facebook",
+                      "library": "fa-brands"
+                    },
+                    "_id": "5c8eb6d"
+                  },
+                  {
+                    "social_icon": {
+                      "value": "fab fa-twitter",
+                      "library": "fa-brands"
+                    },
+                    "_id": "8bf1f5a"
+                  },
                   {
                     "social_icon": {
                       "value": "fab fa-instagram",
                       "library": "fa-brands"
                     },
-                    "_id": "7b0a8d8"
+                    "_id": "8b427cb"
                   },
                   {
                     "social_icon": {
                       "value": "fab fa-telegram",
                       "library": "fa-brands"
                     },
-                    "_id": "50ba662"
-                  },
-                  {
-                    "social_icon": {
-                      "value": "fab fa-linkedin",
-                      "library": "fa-brands"
-                    },
-                    "_id": "7bfe66a"
+                    "_id": "e8a1e4c"
                   }
                 ],
-                "shape": "circle",
                 "align": "left",
                 "icon_color": "custom",
-                "icon_primary_color": "#FF4B2300",
-                "icon_secondary_color": "#53587982",
-                "icon_padding": { "unit": "em", "size": 0, "sizes": [] },
-                "icon_spacing": { "unit": "px", "size": 10, "sizes": [] },
-                "hover_animation": "grow",
+                "icon_size": { "unit": "px", "size": 20, "sizes": [] },
+                "icon_padding": { "unit": "em", "size": 0.4, "sizes": [] },
+                "icon_spacing": { "unit": "px", "size": 8, "sizes": [] },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
                 "__globals__": {
-                  "icon_primary_color": "",
-                  "icon_secondary_color": "",
-                  "hover_secondary_color": "globals/colors?id=text"
-                }
+                  "icon_primary_color": "globals/colors?id=text",
+                  "icon_secondary_color": "globals/colors?id=accent",
+                  "hover_secondary_color": "globals/colors?id=d5d50bf"
+                },
+                "align_mobile": "center"
               },
               "elements": [],
               "isInner": false,
@@ -180,8 +404,8 @@
       "elType": "section"
     }
   ],
-  "page_settings": { "content_wrapper_html_tag": "header" },
+  "page_settings": [],
   "version": "0.4",
-  "title": "Digital Marketing Header",
-  "type": "header"
+  "title": "digital marketing footer",
+  "type": "footer"
 }
