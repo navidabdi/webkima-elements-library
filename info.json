@@ -58,7 +58,7 @@
       "hasPageSettings": 0,
       "popularityIndex": 1,
       "type": "block",
-      "subtype": "about",
+      "subtype": "hero",
       "tags": [],
       "template_id": 4,
       "thumbnail": "https://webkima.com/wp-content/uploads/2022/07/design-aboutus-in-mainpage.jpg",
@@ -81,6 +81,22 @@
       "title": "Digital Marketing services in main page",
       "trendIndex": 1,
       "url": "https://el.nabiabdi.ir/digital-marketing-services/"
+    },
+    {
+      "author": "WebkimaAcademy",
+      "date": 2522222306,
+      "favorite": 0,
+      "isPro": 0,
+      "hasPageSettings": 0,
+      "popularityIndex": 1,
+      "type": "block",
+      "subtype": "hero",
+      "tags": [],
+      "template_id": 6,
+      "thumbnail": "https://webkima.com/wp-content/uploads/2022/07/elementor-show-portfolio-on-mainpage.jpg",
+      "title": "Digital Marketing portfolio in main page",
+      "trendIndex": 1,
+      "url": "https://el.nabiabdi.ir/digital-marketing-portfolio/"
     }
   ]
 }
